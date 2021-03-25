@@ -1,1 +1,64 @@
-<mxfile host="app.diagrams.net" modified="2021-03-25T02:33:51.390Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" version="14.5.1" etag="xXb-TAS1oQbMdr4VCBZc" type="github"><diagram id="mCWXGyle1qrRXlYR9wi4">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-25T02:44:51.642Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="WT0z_CYNRqQM4JvPzzDo" version="14.5.1" type="github">
+  <diagram id="mCWXGyle1qrRXlYR9wi4" name="Page-1">
+    <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vu0kUxykcPoLJdEyMzFL-21" value="" style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
+          <mxGeometry x="60" y="160" width="410" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="vu0kUxykcPoLJdEyMzFL-22" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="vu0kUxykcPoLJdEyMzFL-21">
+          <mxGeometry width="410" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="vu0kUxykcPoLJdEyMzFL-23" value="Entrada" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="vu0kUxykcPoLJdEyMzFL-22">
+          <mxGeometry width="136" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="vu0kUxykcPoLJdEyMzFL-24" value="Proceso&amp;nbsp;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="vu0kUxykcPoLJdEyMzFL-22">
+          <mxGeometry x="136" width="138" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="vu0kUxykcPoLJdEyMzFL-25" value="Salida" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="vu0kUxykcPoLJdEyMzFL-22">
+          <mxGeometry x="274" width="136" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="vu0kUxykcPoLJdEyMzFL-26" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="vu0kUxykcPoLJdEyMzFL-21">
+          <mxGeometry y="70" width="410" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="vu0kUxykcPoLJdEyMzFL-27" value="Horas, minutos, salidas dadas por el usuario." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="vu0kUxykcPoLJdEyMzFL-26">
+          <mxGeometry width="136" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="vu0kUxykcPoLJdEyMzFL-28" value="Calcular la hora una vez transcurrido un segundo despues de haberce dado en la entrada" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="vu0kUxykcPoLJdEyMzFL-26">
+          <mxGeometry x="136" width="138" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="vu0kUxykcPoLJdEyMzFL-29" value="La hora representada en &quot;militar&quot;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="vu0kUxykcPoLJdEyMzFL-26">
+          <mxGeometry x="274" width="136" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="vu0kUxykcPoLJdEyMzFL-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vu0kUxykcPoLJdEyMzFL-30" target="vu0kUxykcPoLJdEyMzFL-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vu0kUxykcPoLJdEyMzFL-30" value="segundo = segundos + 1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="585" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vu0kUxykcPoLJdEyMzFL-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vu0kUxykcPoLJdEyMzFL-31" target="vu0kUxykcPoLJdEyMzFL-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vu0kUxykcPoLJdEyMzFL-31" value="Inicio" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vu0kUxykcPoLJdEyMzFL-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vu0kUxykcPoLJdEyMzFL-33" target="vu0kUxykcPoLJdEyMzFL-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vu0kUxykcPoLJdEyMzFL-33" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;Horas, minutos, salidas dadas por el usuario.&lt;/span&gt;&#xa;&#xa;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="102.5" y="460" width="235" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vu0kUxykcPoLJdEyMzFL-34" value="Final" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vu0kUxykcPoLJdEyMzFL-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vu0kUxykcPoLJdEyMzFL-35" target="vu0kUxykcPoLJdEyMzFL-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vu0kUxykcPoLJdEyMzFL-35" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;La hora representada en &quot;militar&quot;&lt;/span&gt;&#xa;&#xa;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="690" width="170" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
