@@ -8,7 +8,14 @@ m=int(input("Dame minutos: "))
 s=int(input("Dame segundos: "))
 
 # Proceso
-s += 1
+if m  == 59 :
+    m = 0
+    h +=1
+if s == 59:
+    s = 0
+if s  < 59:   
+    s += 1
+
 
 # Salidas
 print("Horas", h)
